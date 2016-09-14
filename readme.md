@@ -53,7 +53,7 @@ Internet选项 -> 连接 选项卡 -> 局域网设置(如果是电脑拨号上�
 Ubuntu（需要一行一行复制安装）:
 -------
 	apt-get -y install squid
-	curl http://www.rpsofts.com/vvv/squid/ubuntu-squid.conf  > /etc/squid3/squid.conf
+	curl https://raw.githubusercontent.com/niejuhu/squid-PAC/master/squid/ubuntu-squid.conf > /etc/squid3/squid.conf
 	mkdir -p /var/cache/squid
 	chmod -R 777 /var/cache/squid
 	service squid3 stop
